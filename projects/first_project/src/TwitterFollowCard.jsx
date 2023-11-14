@@ -1,7 +1,11 @@
 import { useState } from 'react'
-
+import PropTypes from 'prop-types'
 
  export function TwitterFollowCard ({username, name}) {
+    TwitterFollowCard.propTypes ={
+        username: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired
+    }
     const [isFollowing, setIsFollowing] = useState(false)
 
 
