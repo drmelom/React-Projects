@@ -1,4 +1,3 @@
-import { navigate } from '../Link.jsx'
 import { Link } from '../Link.jsx'
 
 export default function HomePage () {
